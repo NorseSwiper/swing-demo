@@ -10,6 +10,6 @@ import static org.junit.jupiter.api.Assertions.*;
 public class SwingDemoTest {
     @Test public void testSomeLibraryMethod() {
         SwingDemo classUnderTest = new SwingDemo();
-        assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
+        assertTrue(classUnderTest.someLibraryMethod(), "someLibraryMethod should return 'true'");
     }
 }
